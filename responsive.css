@@ -751,8 +751,8 @@ font-size: 1.5rem;
   width: 100%;
 }
 .lecture-content .card {
-  width: 22%;
-  height: 286px;
+  width: 28%;
+  height: 290px;
 
 }
 .lecture-content .card .cp-img {
@@ -760,7 +760,7 @@ font-size: 1.5rem;
   height: 155px;
 }
 .lecture-text {
-  height: 129px;
+  height: 133px;
   width: 100%;
 }
 .card .body {
