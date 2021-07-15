@@ -1,0 +1,895 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 290px) and (max-width: 411px) {
+
+  .navigation .logo a {
+    font-size: 25px;
+    padding: 12px 0; 
+}
+  .navigation .nav-menu {
+    display: block;
+    position: fixed;
+    top: 54px;
+    right: -100%;
+   
+   background-color: rgba(0, 0, 0, 0.945);
+    height: 100vh;
+    width: 100%;
+    text-align: center;  
+    transition: 1s;  
+    
+}
+
+  .navigation .nav-menu li a{   
+    padding: 25px;     
+}
+.menu-btn i {
+  display: block;
+  font-size: 1.5rem;
+  padding: 14px 0;
+}
+#click:checked ~ .nav-menu{
+   right: 0;
+  
+}
+#click:checked ~ .menu-btn i::before{
+    content: "\f00d";
+}
+.navigation .nav-menu a::before {
+    width: 0;
+}
+.navigation .nav-menu a:hover{
+    border-left: 4px solid rgb(255, 30, 0);
+}
+.home-content .home-text h2 {
+  padding: 0px 0;
+  font-size: 18px;
+}
+.home-content .home-text h1 {
+  padding: 14px 0;
+  font-size: 21px;
+}
+.home-content .home-text p {
+  font-size: 8px;
+}
+.home-btn a {
+  padding: 4px 5px;
+  margin-right: 5px;
+}
+.home-content .home-btn {
+  padding: 0px 0;
+}
+.home-content {
+  padding: 86px 0;
+}
+.home .home-img {
+  height: 290px;
+}
+.overlay {
+  height: 290px;
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+}
+.about-content .about-desc {
+  flex-direction: column;
+}
+.about-content .about-desc .about-text {
+  width: 100%;
+  padding: 0px 25px;
+}
+.about-text h4 {
+  text-align: left;
+margin-bottom: 0px;
+font-size: 1.1rem;
+}
+.about-content .about-desc .about-img {
+  width: 100%;
+  padding: 8px 25px;
+}
+
+.service-content h2 {
+  font-size: 1.5rem;
+}
+.service-desc {
+  flex-direction: column;
+}
+.service-desc .service-img {
+  width: 100%;
+  padding: 130px 0;
+}
+.service-item {
+  width: 100%;
+  padding: 20px;
+}
+.service-item h3 {
+  font-size: 1.1rem;
+}
+.service-item h3 span {
+  font-size: 1.5rem;
+}
+.service-item p {
+  font-size: 17px;
+}
+
+.lecture h2 {
+  font-size: 1.5rem;
+}
+.lecture .lecture-content {
+  justify-content: space-evenly;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.lecture-content .card {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.lecture-content .card .cp-img {
+  width: 100%;
+  }
+  .lecture-text {
+    width: 100%;
+}
+.card .title {
+  font-size: 1.3rem;
+}
+.card .body p {
+  padding: 0px;
+}
+.lecture-content .card .cp-img img {
+  width: 145px;
+  height: 147px;
+}
+.card .title {
+  font-size: 1.3rem;
+}
+.card .body p {
+  padding: 0px;
+}
+.lecture-content .card .cp-img img {
+  width: 145px;
+  height: 147px;
+}
+
+
+.about-me h2 {
+  font-size: 1.5rem;
+}
+.about-me-text p {
+  font-size: 13px;
+}
+.about-me-content .my-img {
+  width: 100%;
+  margin: 42px 0;
+}
+.about-me-content .about-me-text {
+  width: 100%;
+}
+.about-btn a {
+  font-size: 1rem;
+  padding: 8px;
+}
+.about-me:hover .my-img img {
+  transform: scale(1.3);
+}
+
+.qualification h2 {
+  font-size: 1.5rem;
+}
+.my-qualification h3 {
+  font-size: 1.5rem;
+}
+.qualification .my-qualification {
+  padding: 20px;
+  width: 100%;
+}
+.my-qualification .education {
+  width: 100%; 
+  }
+  .my-qualification .skill {
+    width: 100%;
+}
+.my-qualification .achivement {
+  width: 100%;
+}
+.my-qualification >div:not(:last-child){
+  margin-bottom: 15px;
+}
+
+.information .my-info .per-data h4 {
+  font-size: 22px;
+}
+.information .my-info .info1,.info2,.info3 {
+  width: 220px;
+  padding: 10px 0;
+}
+
+.information .my-info .info1 .per-data p {
+  font-size: 16px;
+}
+.information .my-info .info2 .per-data p {
+  font-size: 16px;
+}
+.information .my-info .info3 .per-data p {
+  font-size: 16px;
+}
+.information .my-info .info1 i {
+  font-size: 22px;
+  margin-top: 18px;
+  padding-right: 10px;
+}
+.information .my-info .info2 i {
+  font-size: 22px;
+  margin-top: 19px;
+  padding-right: 11px;
+}
+.information .my-info .info3 i {
+  font-size: 22px;
+  margin-top: 24px;;
+  padding-right: 3px;
+}
+.contacts h2 {
+  font-size: 1.5rem;
+}
+.contacts .contact-me {
+  width: 100%;
+}
+.contact-me .information {
+  width: 100%;
+}
+.contact-me h3 {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+.contact-me .message {
+  width: 100%;
+}
+.message .contact-form .fildname .name {
+  width: 100%;
+}
+.message .contact-form .fildemail .email {
+  width: 100%;
+}
+.information .you-want p {
+  font-size: 18px;
+}
+.message .contact-form .fildsubmit .submit {
+  padding: 5px 11px;
+}
+
+footer .footer-content .connect-title p {
+  font-size: 16px;
+}
+.social-area li { 
+  padding: 0 4px;
+}
+.social-area li a i {
+  font-size: 18px;
+  padding-top: 8px;
+  height: 34px;
+  width: 34px;
+}
+.footer-content .credit p {
+  font-size: 9px;
+}
+.footer-content .credit p a {
+  font-size: 9px;
+}
+.footer-content .credit {
+  margin: 12px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+/*  small devices (phones, 600px and down) */
+@media only screen and (min-width: 412px) and (max-width: 599px) {
+
+
+  .navigation .logo a {
+    font-size: 2rem;
+    padding: 8px; 
+}
+  .navigation .nav-menu {
+    display: block;
+    position: fixed;
+    top: 54px;
+    right: -100%;
+   
+   background-color: rgba(0, 0, 0, 0.945);
+    height: 100vh;
+    width: 100%;
+    text-align: center;  
+    transition: 1s;  
+    
+}
+
+  .navigation .nav-menu li a{   
+    padding: 25px;     
+}
+  .menu-btn i{
+   display: block;
+}
+#click:checked ~ .nav-menu{
+   right: 0;
+  
+}
+#click:checked ~ .menu-btn i::before{
+    content: "\f00d";
+}
+.navigation .nav-menu a::before {
+    width: 0;
+}
+.navigation .nav-menu a:hover{
+
+    border-left: 4px solid rgb(255, 30, 0);
+
+}
+.home-content .home-text h2 {
+  font-size: 20px;
+  padding-top: 100px;
+}
+.home-content .home-text h1 {
+  font-size: 30px;
+}
+.home-content .home-text p {
+  font-size: 11px;
+}
+.home .home-img {
+  height: 360px;
+}
+.overlay {
+  height: 360px;
+}
+.home-content {
+  padding: 0;
+}
+.home-content .home-btn {
+  padding: 0; 
+}
+.about-content h3 {
+  font-size: 2rem;
+}
+.about-content .about-desc {
+  flex-direction: column;
+}
+.about-content .about-desc .about-text {
+  width: 100%;
+  padding: 0px 25px;
+}
+.about-text h4 {
+  text-align: left;
+margin-bottom: 0px;
+font-size: 1.5rem;
+}
+.about-content .about-desc .about-img {
+  width: 100%;
+  padding: 8px 25px;
+}
+
+.service-content h2 {
+  font-size: 2rem;
+}
+.service-desc {
+  flex-direction: column;
+}
+.service-desc .service-img {
+  width: 100%;
+  padding: 140px 0;
+}
+.service-item {
+  width: 100%;
+  padding: 20px;
+}
+
+.lecture h2 {
+  font-size: 2rem;
+}
+.lecture .lecture-content {
+  justify-content: space-evenly;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.lecture-content .card {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.lecture-content .card .cp-img {
+  width: 100%;
+  }
+  .lecture-text {
+    width: 100%;
+}
+.card .title {
+  font-size: 1.3rem;
+}
+.card .body p {
+  padding: 0px;
+}
+.lecture-content .card .cp-img img {
+  width: 145px;
+  height: 147px;
+}
+.card .title {
+  font-size: 1.3rem;
+}
+.card .body p {
+  padding: 0px;
+}
+.lecture-content .card .cp-img img {
+  width: 145px;
+  height: 147px;
+}
+.about-me h2 {
+  font-size: 2rem;
+}
+.about-me-text p {
+  font-size: 1rem;
+}
+.about-me-content .my-img {
+  width: 100%;
+  margin: 42px 0;
+}
+.about-me-content .about-me-text {
+  width: 100%;
+}
+.qualification h2 {
+  font-size: 2rem;
+}
+.qualification .my-qualification {
+  padding: 20px;
+  width: 100%;
+}
+.my-qualification .education {
+  width: 100%; 
+  }
+  .my-qualification .skill {
+    width: 100%;
+}
+.my-qualification .achivement {
+  width: 100%;
+}
+.my-qualification >div:not(:last-child){
+  margin-bottom: 15px;
+}
+.information .my-info .per-data h4 {
+  font-size: 25px;
+}
+.information .my-info .info1 .per-data p {
+  font-size: 19px;
+}
+.information .my-info .info2 .per-data p {
+  font-size: 19px;
+}
+.information .my-info .info3 .per-data p {
+  font-size: 19px;
+}
+.information .my-info .info1 i {
+  font-size: 28px;
+  margin-top: 18px;
+}
+.information .my-info .info2 i {
+  font-size: 28px;
+  margin-top: 19px;
+}
+.information .my-info .info3 i {
+  font-size: 28px;
+  margin-top: 24px;;
+}
+.contacts h2 {
+  font-size: 2rem;
+}
+.contacts .contact-me {
+  width: 100%;
+}
+.contact-me .information {
+  width: 100%;
+}
+.contact-me h3 {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.contact-me .message {
+  width: 100%;
+}
+.message .contact-form .fildname .name {
+  width: 100%;
+}
+.message .contact-form .fildemail .email {
+  width: 100%;
+}
+.social-area li a i {
+  font-size: 18px;
+  height: 35px;
+  width: 35px;
+}
+.footer-content .credit {
+  margin: 10px 0px;
+}
+.footer-content .credit p {
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) and (max-width: 767px){
+    
+    .navigation .nav-menu {
+      display: block;
+      position: fixed;
+      top: 55px;
+      right: -100%;
+     
+     background-color: rgba(0, 0, 0, 0.945);
+      height: 100vh;
+      width: 100%;
+      text-align: center;  
+      transition: 1s;  
+      
+  }
+  
+  .navigation .nav-menu li a{   
+      padding: 25px;     
+  }
+  .menu-btn i{
+    display: block;
+}
+#click:checked ~ .nav-menu{
+    right: 0;
+    
+}
+#click:checked ~ .menu-btn i::before{
+    content: "\f00d";
+}
+.navigation .nav-menu a::before {
+  width: 0;
+}
+.navigation .nav-menu a:hover{
+  
+  border-left: 4px solid rgb(255, 30, 0);
+  
+}
+
+
+.home-content .home-text h2 {
+  font-size: 25px;
+  padding-top: 50px;
+}
+.home-content .home-text h1 {
+  font-size: 40px;
+}
+.home-content .home-text p {
+  font-size: 19px;
+}
+.home .home-img {
+  height: 390px;
+}
+.overlay {
+  height: 390px;
+}
+.home-content {
+  padding: 30px 0;
+}
+.home-content .home-btn {
+  padding: 25px 0;
+}
+.about-content h3 {
+  font-size: 2rem;
+}
+.about-content .about-desc {
+  flex-direction: column;
+}
+.about-content .about-desc .about-text {
+  width: 100%;
+  padding: 0px 25px;
+}
+.about-text h4 {
+  text-align: left;
+margin-bottom: 0px;
+font-size: 1.5rem;
+}
+.about-content .about-desc .about-img {
+  width: 100%;
+  padding: 8px 25px;
+}
+
+.service-content h2 {
+  font-size: 2rem;
+}
+.service-desc {
+  flex-direction: column;
+}
+.service-desc .service-img {
+  width: 100%;
+  padding: 140px 0;
+}
+.service-item {
+  width: 100%;
+  padding: 20px;
+}
+
+.lecture h2 {
+  font-size: 2rem;
+}
+.lecture .lecture-content {
+  justify-content: space-around;
+  width: 100%;
+  margin: 0 auto;
+}
+.lecture-content .card {
+  width: 35%;
+}
+.lecture-content .card .cp-img {
+  width: 100%;
+  }
+  .lecture-text {
+    width: 100%;
+}
+.about-me h2 {
+  font-size: 2rem;
+}
+.qualification h2 {
+  font-size: 2rem;
+}
+.qualification .my-qualification {
+  justify-content: space-around;
+  width: 100%;
+}
+.my-qualification .education {
+  width: 45%;
+}
+.my-qualification .skill {
+  width: 45%;
+}
+.my-qualification .achivement {
+  width: 50%;
+  margin: 25px 0;
+}
+.contacts h2 {
+  font-size: 2rem;
+}
+.contacts .contact-me {
+  width: 100%;
+}
+.contact-me .information {
+  width: 100%;
+}
+.contact-me h3 {
+  text-align: center;
+}
+.contact-me .message {
+  width: 100%;
+}
+.message .contact-form .fildname {
+  margin-right: 5px;
+}
+.footer-content .credit p {
+  text-align: center;
+}
+
+
+
+
+
+}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+.navigation .nav-menu li a {
+  font-size: 1rem;
+  padding: 19px;
+}
+.navigation .nav-menu a::before {
+  width: 70%;
+}
+.home-content .home-text h2 {
+  font-size: 35px; 
+}
+.home-content .home-text h1 {
+  font-size: 50px;
+}
+.home .home-img {
+  height: 450px;  
+}
+.overlay {
+  height: 450px;
+}
+.home-content {
+  padding: 88px 0;
+}
+.about-content h3 {
+  padding: 10px;
+  font-size: 2rem;
+}
+.about-text h4 {
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+}
+.about-content .about-desc .about-text {
+  padding: 0px 15px;
+}
+.about-text p {
+  padding-top: 5px;
+  line-height: 26px;
+}
+.about-content {
+  padding: 10px 15px;
+}
+.about-img img {
+  height: 240px;
+}
+.service-content h2 {
+  font-size: 2rem;
+}
+.lecture h2 {
+  font-size: 2rem; 
+}
+.lecture .lecture-content {
+  width: 100%;
+}
+.lecture-content .card {
+  width: 22%;
+  height: 286px;
+
+}
+.lecture-content .card .cp-img {
+  width: 100%;
+  height: 155px;
+}
+.lecture-text {
+  height: 129px;
+  width: 100%;
+}
+.card .body {
+  padding: 0px;
+}
+.lecture-content .card .cp-img img {
+  width: 155px;
+  height: 150px;
+}
+.card .body p {
+  padding: 4px;
+}
+.card .title {
+  font-size: 1.5rem;
+}
+.about-me h2 {
+  font-size: 2rem;
+}
+.my-qualification h3 {
+  font-size: 1.5rem;
+}
+.qualification h2 {
+  font-size: 2rem;
+}
+.qualification .my-qualification {
+  justify-content: space-around;
+}
+.my-qualification .achivement {
+  width: 31%;
+}
+.achivement >div {
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+.my-qualification >div:hover{
+  border: 3px solid rgb(187, 255, 0);
+  box-shadow: 0px 0px 16px 0px rgb(71, 48, 48);
+  border-radius: 20px;
+}
+.contacts h2 {
+  font-size: 2rem;
+}
+.message .contact-form .fildname .name {
+  width: 100%;
+}
+.message .contact-form .fildemail .email {
+  width: 100%;
+}
+.footer-content .credit p {
+  text-align: center;
+}
+
+
+  } 
+  
+  /* Large devices (normal laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /* .navigation .nav-menu {
+     margin-left: 28%;
+  } */
+  .home-content .home-text h1 {
+    font-size: 50px;  
+}
+.home-content .home-text h2 {
+  font-size: 35px;
+}
+.home .home-img {
+  height: 500px; 
+}
+.overlay {
+  height: 500px;
+}
+.about-content .about-desc .about-text { 
+  padding: 0px 70px;
+}
+.service-desc .service-img {
+  background-size: contain;
+}
+.message .contact-form .fildname {
+  margin-right: 4px;
+}
+ 
+
+.lecture .lecture-content {
+  width: 100%;
+}
+.lecture-content .card {
+  width: 22%;
+  height: 286px;
+
+}
+.lecture-content .card .cp-img {
+  width: 100%;
+  height: 155px;
+}
+.lecture-text {
+  height: 129px;
+  width: 100%;
+}
+.card .body {
+  padding: 0px;
+}
+.lecture-content .card .cp-img img {
+  width: 155px;
+  height: 150px;
+}
+.card .body p {
+  padding: 4px;
+}
+.card .title {
+  font-size: 1.5rem;
+}
+
+
+.achivement >div {
+  margin: 12px 0;
+  
+}
+   
+  } 
+  
+
+
+
+
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only (min-width: 1200px) and (max-width: 1500px) {
+
+    }
+  

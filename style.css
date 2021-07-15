@@ -1,0 +1,951 @@
+ @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+}
+* li{
+    list-style-type: none;
+}
+/**************** header start ***************/
+.navigation{
+    background-image: linear-gradient(to right, rgb(8, 28, 207) , rgb(172, 1, 66));
+    width: 100%;
+    height: auto;
+    display: flex;
+   flex-wrap: wrap;
+   /* justify-content: center; */
+   justify-content: space-between;
+   padding: 0 20px;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/****************** logo *****************/
+.navigation .logo{
+    display: inline;
+}
+
+.navigation .logo a{
+    /* color: white;
+    font-size: 2rem;
+    
+    display: block;
+    padding: 8px 25px;
+    font-weight: bold; */
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 4px 8px;
+    display: block;
+    
+}
+
+/***********************nav-menu ******************/
+.navigation .nav-menu{
+    /* text-align: center;
+   margin-left: 40%; */
+   display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.navigation .nav-menu li{
+    /* display: inline-block; */
+    
+} 
+.navigation .nav-menu li a{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+   font-weight: bold;
+    padding: 17px;
+    transition: .2s;
+    position: relative;
+    
+}
+.navigation .nav-menu a::before{
+    position: absolute;
+    content: "";
+    width: 75%;
+    height: 2px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: -2px;
+    display: none;
+    
+}
+
+.navigation .nav-menu a:hover{
+    color: rgb(18, 238, 165);
+    border-left: 2px solid rgb(255, 30, 0);
+    
+}
+.navigation .nav-menu a:hover::before{
+    display: block;
+}
+.menu-btn i{
+    color: white;
+    font-size: 2rem;
+    padding: 11px;
+    display: none;
+    cursor: pointer;
+}
+#click{
+    display: none;
+}
+/**************** header finish ***************/
+
+
+
+
+
+/********* homw swction start ***********/  
+.home .home-img{
+    background-image: url(home.jpg);
+    height: 600px;
+    background-size: cover;
+}
+.overlay{
+    background-image: linear-gradient(to right, rgba(8, 28, 207, 0.3) , rgba(172, 1, 67, 0.3));
+    height: 600px;
+}
+.home{
+
+}
+.home-content{
+    text-align: center;
+    padding: 127px 0;
+}
+.home-content .home-text {
+
+}
+.home-content .home-text h2{
+    padding: 20px 0;
+    color: white;
+    font-size: 45px;
+    text-transform: uppercase;
+}
+.home-content .home-text h1{
+    padding: 20px 0;
+    color: white;
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+    text-transform: capitalize;
+}
+.home-content .home-text p{
+    font-size: 22px;
+    color: rgb(175, 170, 170);
+    text-transform: capitalize;
+    padding: 10px 0;
+    
+    padding-bottom: 30px;
+}
+
+.home-content .home-text span{
+    text-transform: uppercase;
+}
+
+.home-content .home-btn{
+    padding: 20px 0;
+}
+.home-btn a{
+    padding: 8px 16px;
+    background-color: rgba(100, 43, 29, 0.466);
+    margin-left: 16px;
+    color: white;
+    font-size: 1.2rem;
+    
+}
+.home-btn a:last-child{
+    background-color: rgb(240, 57, 11);
+}
+.home-btn a:first-child:hover{
+    border: 2px solid rgb(18, 238, 165);;
+    background-color: rgb(240, 57, 11); 
+}
+.home-btn a:last-child:hover{
+    border: 2px solid rgb(18, 238, 165);;
+    background-color: rgba(100, 43, 29, 0.466);   
+}
+/********* homw swction finish ***********/
+
+
+
+
+/************** about me secton start **********/
+.about{
+    width: 100%;
+    
+    
+}
+.about-content{
+    padding: 5px 15px;
+}
+.about-content h3{
+    text-align: center;
+    padding: 16px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(255, 30, 0);
+}
+.about-content .about-desc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-content .about-desc .about-text{
+    width: 50%;
+    
+    padding: 80px 70px;
+
+}
+.about-text h4{
+    text-align: center;
+margin-bottom: 10px;
+font-size: 2rem;
+text-transform: uppercase;
+color: #222;
+}
+.about-text p{
+   text-align: justify;
+   font-size: 18px;
+   padding-top: 10px;
+   line-height: 25px;
+}
+.about-content .about-desc .about-img{
+    width: 50%;
+ display: block;
+}
+.about-img img{
+    width: 100%;
+}
+/************** about me secton finish **********/
+
+
+
+/* **************start services section *************/
+
+.service {
+	background-color: rgba(179, 167, 167, 0.226);
+   
+    overflow: hidden;
+}
+.service-content{
+    
+}
+.service-content h2{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: rgb(255, 30, 0);
+}
+.service-desc{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.service-desc .service-img{
+    width: 49%;
+    height: auto;
+    background-image: url(service.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.service-desc .service-img img{
+    width: 100%;
+    height: 400px;
+    
+}
+.service-item{
+    width: 49%;
+    height: auto;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.service-item .service-item1, .service-item2, .service-item3{
+    border-left: 3px solid orangered;
+    margin-bottom: 20px;
+}
+
+.service-item h3{
+    color: #222;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 0px 5px;
+}
+.service-item h3 span{
+    color: orangered;
+    font-size: 2.5rem;
+}
+
+.service-item p{
+    padding: 0px 5px;
+    font-size: 18px;
+}
+/* **************end services section *************/
+
+
+
+/* **************start lectures section************* */
+
+.lecture{
+   
+}
+.lecture h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: rgb(255, 30, 0);
+    padding: 15px 0;
+}
+.lecture .lecture-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.lecture-content .card{
+    width: 240px;
+    height: 316px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 16px 1px rgb(0, 0, 0);
+    transition: .3s;
+}
+.lecture-content .card:hover{
+    box-shadow: 0px 4px 15px 5px rgb(0, 0, 0);
+    border: 1px solid rgb(0, 255, 213);
+     cursor: pointer;
+}
+
+.lecture-content .card:hover .title{
+    color: rgb(196, 10, 41);
+}
+.lecture-content .card .cp-img{
+    width: 238px;
+    display: block;
+    background-color: rgb(168, 7, 47);
+    height: 170px;
+}
+.lecture-content .card .cp-img img{
+    width: 175px;
+    display: block;
+    height: 167px;
+    margin: 0 auto;
+}
+.lecture-text{
+    background-color: rgba(155, 160, 84, 0.637);
+    height: 144px;
+    width: 238px;
+}
+
+.card .title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.card .body{
+    padding: 5px;
+}
+
+.card .body p{
+    padding: 6px;
+    text-align: center;
+}
+
+/* **************end lectures section************* */
+
+
+
+
+/* ************** start about me section************* */
+
+.about-me{
+    margin: 10px 0;
+    background-color: rgba(214, 202, 200, 0.692);
+}
+.about-me h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-bottom: 8px;
+    color: rgb(255, 30, 0);
+}
+
+
+.about-me .about-me-content{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 5px 10px;
+}
+.about-me-content .my-img{
+    width: 50%;
+    margin: 80px 0;
+}
+
+.about-me-content .my-img img{
+    display: block;
+    height: 150px;
+    width: 130px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 100%;
+    transition: 1s;
+}
+.about-me-content .about-me-text{
+    width: 50%;
+    
+    border-left: 2px solid rgba(0, 0, 0, 0.493);
+}
+.about-me-text >div{
+    padding: 4px 16px;
+}
+.about-me-text p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-bottom: 2px solid rgba(56, 42, 42, 0.493);
+    padding-bottom: 12px;
+}
+.about-btn{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.about-btn a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color: rgb(218, 74, 22);
+    padding: 12px;
+    border-radius: 3px;
+    color: black;
+}
+.about-btn a:hover{
+    background-color: rgb(255, 30, 0);
+    color: white;
+}
+.about-me:hover .my-img img{
+    transform: scale(1.4);
+    
+}
+
+/* ************** end about me section************* */
+
+
+
+/* ************ start  qualification section *********** */
+
+.qualification{
+    /* margin: 20px 0; */
+    background-color: rgb(243, 230, 211);
+
+}
+.qualification h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: rgb(255, 30, 0);
+    
+}
+/* qualification all h3 */
+.my-qualification h3{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: rgb(238, 255, 0);
+}
+
+.qualification .my-qualification{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 10px;
+    
+}
+
+.my-qualification .education{
+    background-color: rgb(0, 128, 96);
+    width: 33%;
+    padding: 0px 15px;
+    padding-bottom: 20px;
+    transition: .4s;
+}
+.education >div{
+    margin-bottom: 10px;
+    padding: 20px;
+    
+}
+.education >div:not(:last-child){   
+    border-bottom: 2px solid rgba(170, 136, 136, 0.884);
+
+}
+
+
+.education h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+.education p{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.education p span{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+/* ======skil part===== */
+.my-qualification .skill{
+    background-color: rgba(117, 26, 170, 0.781);
+    width: 33%;
+    transition: .4s;
+
+}
+.my-qualification .skill .progress-bar{
+    padding: 20px;
+}
+
+.progress-bar ul li{
+    list-style-type: none;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    
+}
+.progress-bar ul li::before{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 100%;
+    background-color: rgba(177, 200, 221, 0.822);
+    top: 40px;
+    left: 0;
+    border-radius: 1000px;
+    
+}
+.progress-bar ul li::after{
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 0;
+    background-color: rgba(9, 52, 245, 0.952);
+    top: 40px;
+    left: 0;
+    border-radius: 1000px;
+    
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    animation-direction: forward;
+    animation-fill-mode: forwards;
+
+}
+ .progress-bar li.c::after{
+     animation-name: c;
+ }
+ @keyframes c{
+     to{
+         width: 90%;
+         background-color: orange;
+     }
+ }
+
+ .progress-bar li.cpp::after{
+    animation-name: cpp;
+}
+@keyframes cpp{
+    to{
+        width: 80%;
+        background-color: orangered;
+    }
+}
+.progress-bar li.python::after{
+    animation-name: python;
+}
+@keyframes python{
+    to{
+        width: 70%;
+        background-color: rgb(247, 11, 11);
+    }
+}
+.progress-bar li.java::after{
+    animation-name: java;
+}
+@keyframes java{
+    to{
+        width: 90%;
+        background-color: rgb(4, 161, 167);
+    }
+}
+.progress-bar li.scretch::after{
+    animation-name: scretch;
+}
+@keyframes scretch{
+    to{
+        width: 50%;
+        background-color: chartreuse;
+    }
+}
+/* ======end skil part===== */
+
+
+.my-qualification .achivement{
+    background-color: rgb(43, 104, 112);
+    width: 33%;
+    transition: .4s;
+
+}
+.achivement >div{
+    margin: 20px 0;
+    padding: 10px ;
+}
+.achivement p{
+    font-size: 1.3rem;
+    border-left: 3px solid orangered;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    
+}
+.achivement p span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: orangered;
+    /* padding: 0 5px; */
+}
+.my-qualification >div:hover{
+    border: 3px solid rgb(187, 255, 0);
+    box-shadow: 0px 0px 16px 0px rgb(71, 48, 48);
+    border-radius: 50px;
+}
+
+/* ************ end  qualification section *********** */
+
+
+
+
+/* **************start contacts me  section***************** */
+
+.contacts{
+    background-color: rgba(221, 216, 206, 0.486);
+    margin-top: 15px;
+}
+.contacts h2{
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: rgb(255, 30, 0);
+}
+.contacts .contact-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+.contact-me .information{
+    width: 49%;
+    background-color: hsla(41, 78%, 83%, 0.781);
+    
+    padding: 8px 16px;
+}
+.contact-me h3{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    margin: 15px 0;
+}
+.information .you-want{
+
+}
+.information .you-want p{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-bottom: 8px;
+}
+.information .my-info{
+
+}
+.information .my-info .info1,.info2,.info3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 10px;
+}
+
+.information .my-info .info1 i{
+    font-size: 30px;
+    padding-right: 35px;
+    margin-top: 25px;
+    color: rgb(255, 30, 0);
+}
+.information .my-info .info2 i{
+    font-size: 30px;
+    padding-right: 40px;
+    margin-top: 25px;
+    color: rgb(255, 30, 0);
+}
+.information .my-info .info3 i{
+    font-size: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    color: rgb(255, 30, 0);
+}
+
+.information .my-info .per-data h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.information .my-info .info1 .per-data p{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: rgb(92, 90, 88);
+}
+.information .my-info .info2 .per-data p{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: rgb(92, 90, 88);
+}
+
+.information .my-info .info3 .per-data p{
+    font-size: 22px;
+    text-transform: lowercase;
+    color: rgb(92, 90, 88);
+}
+    
+
+
+
+
+
+.contact-me .message{
+    width: 49%;
+    background-color: hsla(41, 78%, 83%, 0.781); 
+    padding: 8px 16px;
+}
+.message .contact-form{
+    width: 100%;
+    
+}
+.message .contact-form .fildname{
+    display: inline;  
+    margin-right: 7px;
+}
+.message .contact-form .fildname .name{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0px 5px;
+    font-size: 17px;
+}
+.message .contact-form .fildemail{
+    display: inline;
+        
+}
+.message .contact-form .fildemail .email{
+    width: 49%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0px 5px;
+    font-size: 17px;
+}
+.message .contact-form .fildsub{
+    /* width: 100%; */
+    
+}
+.message .contact-form .fildsub .sub{
+    width: 100%;
+    height: 46px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 0px 5px;
+    font-size: 17px;
+    
+}
+.message .contact-form .fildtextarea{
+    
+}
+.message .contact-form .fildtextarea .textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 10px 10px;
+    font-size: 17px;
+    resize: none
+}
+
+.message .contact-form #focus:focus{
+    transition: 1s;
+    background-color: rgba(197, 252, 0, 0.932);
+    border: 2px solid rgb(248, 7, 59);
+}
+.message .contact-form .fildsubmit{
+    
+}
+.message .contact-form .fildsubmit .submit{
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    background-color: rgb(255, 30, 0);
+    color: white;
+    cursor: pointer;
+}
+.message .contact-form .fildsubmit .submit:hover{
+    border: 3px solid rgb(5, 250, 176);
+    
+    font-weight: bold;
+}
+::placeholder{
+    /* padding-left: 8px; */
+    text-transform: capitalize;
+}
+
+/* ************** end contacts me  section***************** */
+
+
+
+/* ************** start footer section***************** */
+
+
+footer{
+    background-color: #232323;
+    width: 100%;
+    height: 155px;
+}
+footer .footer-content .connect-title p{
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgb(224, 216, 205);
+}
+.social-area{
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+.social-area li{
+    display: inline-block;  
+    padding: 0 15px;
+}
+.social-area li a{
+    display: block;
+
+}
+.social-area li a i{
+    display: block;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: rgba(22, 21, 21, 0.603);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    transition: .3s;
+}
+.social-area #fb{
+    color: #1c5adf;
+}
+.social-area #youtube{
+    
+    color: red;
+}
+.social-area #skype{
+    
+    color:#39bde6;
+}
+.social-area #linkedin{
+    color: #0673a5;
+}
+.social-area #twitter{
+    color: #1baeec;
+}
+
+
+
+.social-area #fb:hover{
+    background-color: #1c5adf;
+    color: white;
+}
+.social-area #youtube:hover{
+    color: white;
+    background-color: red;
+}
+.social-area #skype:hover{
+    color: white;
+    background-color:#28A9D0;
+}
+.social-area #linkedin:hover{
+    background-color: #0077B0;
+    color: white;
+}
+.social-area #twitter:hover{
+    background-color: #2BA5DA;
+    color: white;
+}
+.social-area i:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+
+
+.footer-content{
+
+}
+.footer-content .credit{
+    margin: 10px 30px;
+}
+.footer-content .credit p{
+    font-size: 15px;
+    text-transform: capitalize;
+    
+    color: rgb(224, 216, 205);
+}
+.footer-content .credit p span{
+    
+}
+.footer-content .credit p a{
+    font-size: 18px;
+    color: rgb(224, 216, 205);
+}
